@@ -1,0 +1,8 @@
+python run_finetune.py \                   
+    --model_type=dna \
+    --tokenizer_name=dna$KMER \
+    --model_name_or_path=$MODEL_PATH \
+    --task_name=dnaprom \
+    --do_predict \
+    --data_dir=$DATA_PATH  \
+    --max_seq_length 75 \        

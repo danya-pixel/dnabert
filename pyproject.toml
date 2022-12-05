@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "dna-bert"
+version = "0.1.0"
+description = ""
+authors = ["danya-pixel <exisionmonkey@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dna_bert"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.23.5"
+tokenizers = "^0.13.2"
+tqdm = "^4.64.1"
+pandas = "^1.5.2"
+torch = "^1.13.0"
+jupyter = "^1.0.0"
+tensorboard = "^2.11.0"
+scikit-learn = "^1.1.3"
+transformers = {path = "external/DNATransformers"}
+matplotlib = "^3.6.2"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,5 @@
+finetune_model/pretrained_model
+finetune_model/sample_data
+finetune_model/result
+.venv
+data
